@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+}
+
+.top img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.top p {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows wrapping to next line */
+    justify-content: center;
+    /* Centers all cars horizontally */
+    gap: 20px;
+}
+
+p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.middle img {
+    width: 500px;
+    height: 281.852px;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    border: 5px solid white;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.middle p {
+    position: relative;
+    text-align: center;
+
+
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1rem;
+    display: block;
+
+    margin: 0 auto;
+}
+
+#head {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.bottom p {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.bottom img {
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
